@@ -1,0 +1,210 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #444;
+}
+
+.channel-stats {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.channel-stats p {
+  margin: 10px 0;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 140px; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.video-item:hover {
+  transform: scale(1.05);
+}
+
+.video-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.bar-chart-container {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.channel-stats {
+  margin-top: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px; /* Adjust width as needed */
+}
+
+.video-item img {
+  width: 120px; /* Set desired thumbnail size */
+  height: 90px;
+  border-radius: 4px;
+}
+
+.video-card {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.likes {
+  margin-top: 5px;
+}
+
+.likes-label {
+  font-weight: bold;
+}
+
+.likes-count {
+  color: #d9534f; /* Red color for likes */
+}
+
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.channel-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.fetch-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+
+.channel-stats {
+  margin-top: 20px;
+}
+
+.bar-chart-container {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video-item {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 150px; /* Fixed width for video items */
+}
+
+.video-thumbnail {
+  width: 120px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.likes {
+  margin-top: 5px;
+}
+
+.likes-label {
+  font-weight: bold;
+}
+
+.likes-count {
+  color: #d9534f; /* Red color for likes */
+}
